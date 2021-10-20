@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <include file="$(find challenge_project)/launch/challenge.launch"/>
+  <node pkg="challenge_project" name="line_follow" type="line_follow.py"/>
+</launch>
+
